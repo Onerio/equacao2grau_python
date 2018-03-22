@@ -19,7 +19,7 @@ def main():
 	print("Valores Recebidos: ( %.2f ) ( %.2f ) ( %.2f )\n\n----------------------\n"%(a,b,c))
 
 	if a!=0: 
-
+		print('EQUAÇÃO DO SEGUNDO GRAU\n');
 		delta = ((b**2)-4*a*c)
 		print('valor delta: ',delta)
 
@@ -43,7 +43,7 @@ def main():
 
 	else:
 
-		print('Temos que analisar os valores de b e c para equação do 1º Grau.');
+		print('EQUAÇÃO DO PRIMEIRO GRAU\n');
 
 	if b!=0:
 
